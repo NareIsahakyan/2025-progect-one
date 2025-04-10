@@ -1,0 +1,26 @@
+.log1{
+    width: 30px;
+}
+.nav{
+display: flex;
+justify-content: flex-end;
+}
+
+
+.nav__blok{
+ display: flex;
+}
+.nav__list{
+display: inline-block;
+padding: 30px;
+ list-style-type: none; 
+ font-size: 21px;
+letter-spacing: 4px;
+font-weight: 700;
+font-family: "Bebas Neue"; 
+}
+
+.nav__link{
+text-decoration: none;
+color:#3d2514;
+}

@@ -4,13 +4,13 @@ import img01 from "../../img/01.png";
 const Logos = () => {
     return (
         <>
-            <div class="logo">
-                <div class="icon">
+            <div className="logo">
+                <div className="icon">
                     <img src={logo} />
                 </div>
-                <div class="log">
-                    <img src={img01} class="" />
-                    <a href="#" class="log2">Express Delivery +1 234 567 890</a>
+                <div className="log">
+                    <img src={img01} className="" />
+                    <a href="#" className="log2">Express Delivery +1 234 567 890</a>
                 </div>
             </div>
         </>

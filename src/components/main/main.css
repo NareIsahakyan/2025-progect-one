@@ -33,7 +33,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+   justify-self: auto;
     width: 50%;
     height: 500px;
 }
@@ -104,9 +104,12 @@
 
 .ord {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 100%;
     justify-content: space-evenly;
 }
+
 
 .ord h3 {
     text-align: center;
@@ -278,4 +281,10 @@
     background-image: url(../img/img3.png);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+@media screen and (max-width:1280px){
+    .ord{flex-direction: column};
+    .icn3{margin:0px;};
+    .icny{height: auto;};
+    .discover {display: block;width: auto;}
 }
